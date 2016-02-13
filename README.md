@@ -50,10 +50,10 @@ gulp build
 ## 2. DEVELOPING
 
 A typical arcade-style game has a lot happening at once. Often there
-are have the players, enemies, the scene, score updates, visual
-effects and more all changing and interacting with each other over
-time. PGE simplifies a complex game by helping you think in terms of
-the individual game *elements* and their *behaviours*.
+are the players, enemies, the scene, score updates, visual effects and
+more all changing and interacting with each other over time. PGE
+simplifies a complex game by helping you think in terms of the
+individual game *elements* and their *behaviours*.
 
 Tips:
 
@@ -119,7 +119,7 @@ it and respond by adding a `jump` method to its `subscribe` list.
 const mainCharacter = defineElement({
   subscribe: {
     jump(data, { state }) {
-      // When the 'jump' event happens occurs change the character's
+      // When the 'jump' event occurs change the character's
       // state to be 'jumping'
       state.jumping = true;
     },
@@ -167,7 +167,7 @@ const MainCharacter = defineElement({
 
   subscribe: {
     jump(data, { state }) {
-      // When the 'jump' event happens occurs change the character's
+      // When the 'jump' event occurs change the character's
       // state to be 'jumping'
       state.jumping = true;
     },

@@ -18,7 +18,7 @@ const MainCharacter = defineElement({
 
   subscribe: {
     jump(data, { state }) {
-      // When the 'jump' event happens occurs change the character's
+      // When the 'jump' event occurs change the character's
       // state to be 'jumping'
       state.jumping = true;
     },
