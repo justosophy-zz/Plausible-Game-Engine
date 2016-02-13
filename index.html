@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plausible Game Engine</title>
+	<meta name="author" content="Justin Anderson @justosophy">
+	<link type="text/css" rel="stylesheet" href="style.css">
+	<link rel="icon" href="pge.png" type="image/png">
+</head>
+<body>
+	<div class="container">
+		<div class="toolbar">
+			<h1><img src="pge.png" style="width:22px;height:22px;vertical-align:middle;" alt="PGE logo" /> Plausible Game Engine</h1>
+			<small>Justin Anderson <a href="http://twitter.com/justosophy" target="_blank">@justosophy</a></small>
+		</div>
+		<div class="toolbar">
+			<div id="gamelist" class="button-group">
+				<button data-game="MissileCommand" data-active="true">Missile Command</button>
+				<!-- <button data-game="Snake" data-active="false">Snake</button>
+				<button data-game="SerpentAttack" data-active="false">Serpent Attack</button>
+				<button data-game="FlappyBird" data-active="false">Flappy Bird</button> -->
+				<button data-game="Sandbox" data-active="false">Sandbox</button>
+			</div>
+			<div id="controlbuttons" class="button-group">
+				<button data-action="play" data-active="true"><span class="icon icon-play"><span>play</span></span></button>
+				<button data-action="pause" data-active="false"><span class="icon icon-pause"><span>pause</span></span></button>
+			</div>
+		</div>
+		<canvas id="gamecanvas" width="600" height="450">If you're reading this your browser isn't supporting Canvas</canvas>
+	</div>
+	<script type="text/javascript" src="build/play.js"></script>
+</body>
+</html>

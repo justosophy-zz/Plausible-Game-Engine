@@ -1,0 +1,22 @@
+{
+  "name": "plausible-game-engine",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A light-touch educational library for writing HTML5 canvas games in JavaScript",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justosophy/plausible-game-engine.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Anderson",
+  "license": "MIT",
+  "dependencies": {
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
