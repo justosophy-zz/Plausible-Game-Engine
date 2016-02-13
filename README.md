@@ -21,6 +21,8 @@ AUTHOR:
 Justin Anderson
 ( [@justosophy](https://twitter.com/justosophy) )
 
+[See Demo](http://justosophy.github.io/Plausible-Game-Engine/)
+
 ## 1. USAGE
 
 1. Clone and navigate to the repository
