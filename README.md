@@ -2,11 +2,9 @@
 
 Plausible Game Engine (PGE) is a light-touch educational library for
 writing HTML5 canvas games in JavaScript (ES2015).
-To get started [see 1. USAGE](#1-usage).
+[See games examples ›](http://justosophy.github.io/Plausible-Game-Engine/)
 
-I wrote PGE as an educational tool while teaching JavaScript and game
-development concepts at the 2015 ['Sydney JavaScript Study Group'
-meet-up](http://www.meetup.com/Sydney-JavaScript-Study-Group/).
+To get started [see 1. USAGE](#1-usage).
 
 It's a '*plausible*' game engine because the focus is on understanding
 game development concepts
@@ -14,14 +12,16 @@ game development concepts
 more than catering to higher performance and complexity concerns
 ( [see 3. IMPROVEMENTS](#3-improvements) ).
 
+I wrote PGE as an educational tool while teaching JavaScript and game
+development concepts at the 2015 ['Sydney JavaScript Study Group'
+meet-up](http://www.meetup.com/Sydney-JavaScript-Study-Group/).
+
 LICENSE:
 MIT
 
 AUTHOR:
 Justin Anderson
 ( [@justosophy](https://twitter.com/justosophy) )
-
-[See Demo](http://justosophy.github.io/Plausible-Game-Engine/)
 
 ## 1. USAGE
 
