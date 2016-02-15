@@ -39,12 +39,18 @@ Justin Anderson
 npm install
 ```
 
-3. Build the project
+3. Install gulp-cli (to build the project) if you don't have it
+already ( [requires Node.js](https://nodejs.org) )
+```bash
+npm install -g gulp-cli
+```
+
+4. Build the project
 ```bash
 gulp build
 ```
 
-4. Open `index.html` in your browser.
+5. Open `index.html` in your browser.
 
 
 ## 2. DEVELOPING
