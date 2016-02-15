@@ -25,7 +25,7 @@ Justin Anderson
 
 ## 1. USAGE
 
-1. Clone and navigate to the repository
+Clone and navigate to the repository
 ```bash
   git clone https://github.com/justosophy/plausible-game-engine.git
 ```
@@ -33,24 +33,24 @@ Justin Anderson
   cd plausible-game-engine
 ```
 
-2. Install the node packages
+Install the node packages
 ( [requires Node.js](https://nodejs.org) )
 ```bash
 npm install
 ```
 
-3. Install gulp-cli (to build the project) if you don't have it
+Install gulp-cli (to build the project) if you don't have it
 already ( [requires Node.js](https://nodejs.org) )
 ```bash
 npm install -g gulp-cli
 ```
 
-4. Build the project
+Build the project
 ```bash
 gulp build
 ```
 
-5. Open `index.html` in your browser.
+Open `index.html` in your browser.
 
 
 ## 2. DEVELOPING
